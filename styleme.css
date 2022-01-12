@@ -1,0 +1,39 @@
+body {
+    background-color: lightslategrey;
+}
+
+#myName{
+    color: red;
+}
+
+h1 {
+    color: rgb(245, 246, 255);
+}
+
+a {
+    text-decoration: none;
+}
+    
+a:link {
+    color: maroon;
+}
+
+a:hover {
+    color: purple;
+} 
+
+a:active {
+    color: yellow;
+}
+
+p::first-letter {
+    float: left;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 7px;   
+}
+
+li{
+    color: green;
+}
