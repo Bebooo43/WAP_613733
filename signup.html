@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="signup.css" />
+    <title>Signup</title>
+</head>
+
+<body>
+
+    <form action="http://mumstudents.org/params.php">
+        <fieldset>
+            <legend>Sign-up:</legend>
+            
+            <p>
+                <label for="fname">Name :</label>
+                <input type="text" id="fname" name="fname" size="16" maxlength="16">
+            </p>
+
+            <p>
+                <label for="gender">Gender :</label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label class="gender" for="male">male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label class="gender" for="female">female</label>
+            </p>
+            
+            <p>
+                <label for="age">Age:</label>
+                <input type="text" id="age" name="age" size="5" maxlength="2">
+            </p>
+
+            <p>
+                <label for="personalType">Personality type:</label>
+                <input type="text" id="personalType" size="6" name="personalType" maxlength="4"> (
+                <span style="color: red;"><a href="http:\\www.google.com"> Don't know your type </a></span>)
+            </p>
+
+            <P>
+                <label for="favOS">Favourite OS:</label>
+                <select name="cars" id="os">
+                <option value="windows" selected>WINDOWS</option>
+                <option value="Linux">Linux</option>
+                <option value="MAC">MAC OS X</option>
+               </select></P>
+
+            <P>
+                <label for="seekAge">seeking age:</label>
+                <input class="seekGender" type="number" id="min" size="5" name="minage" placeholder="min"> to <input type="number" class="seekGender" size="5" id="maxAge" name="max" placeholder="max">
+
+            </P>
+
+            <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>
