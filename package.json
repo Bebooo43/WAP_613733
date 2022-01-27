@@ -1,0 +1,19 @@
+{
+  "name": "wap_613733",
+  "version": "1.0.0",
+  "description": "",
+  "main": "account.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bebooo43/WAP_613733.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bebooo43/WAP_613733/issues"
+  },
+  "homepage": "https://github.com/Bebooo43/WAP_613733#readme"
+}
