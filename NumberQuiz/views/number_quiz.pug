@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title The Number Quiz
+        link(rel="stylesheet", href="/css/number_quiz.css", type="text/css")
+    body
+        div
+            h1 The Number Quiz
+            p Your current score is #{score}.
+
+            if isQuizComplete
+                p You have completed the Number Quiz with a score #{score} out of #{count}
+            else
+                p Guess the next number in the sequences
+                p #{sequence}
+                - var score = score;
+                - var count = count;
+                form(method="post")
+                    label(for="answerText") Your Answer:
+                    input(id= "answerText" type="text" name="answerText" required)
+                    input( type="hidden" name="score" value=score)
+                    input(type="hidden" name="count" value=count)
+                    br
+                    br
+                    button(type="submit") Submit
