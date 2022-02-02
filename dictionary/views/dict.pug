@@ -1,0 +1,19 @@
+doctype
+html
+    head
+        meta(charset='utf-8')
+        title Online Dictionary
+        link(rel="stylesheet" href="dict.css" type="text/css")
+        script(src="http://code.jquery.com/jquery-3.1.0.min.js")
+        script(src="jQuery.js")
+    body
+        h1(class="header") WAP Online Dictionary
+
+        div(class="search_area")
+            form(method="post")
+                label Term
+                input(type="text" name="searchWordText" id="searchWordText")
+                input(type="submit" id="fetchBtn")
+        h2(id="noDataMsg")
+        ol(id="defList")
+        script(src="dict.js")
